@@ -3,6 +3,10 @@ name: xiaohongshu-account-teardown
 description: 获取小红书真实一手数据，逆向拆解小红书平台账号，根据账号互动数据及账号作品数据，产出可复刻的运营手册。当用户提出「拆解某账号」「分析对标号」「看看XX号为什么火」「复刻这个账号的风格」「抓取小红书账号数据」「竞品账号分析」「对标账号数据」「账号诊断」等需求时使用。产出结构化数据 + 互动指标 + 形态拆解 + 差距定位。支持四大能力：(1) 关键词搜索笔记/视频，可按点赞数、评论数、收藏数、发布时间、内容类型筛选排序；(2) 博主作品抓取，按主页链接获取博主的互动数据（粉丝量、点赞量或收藏量等）或公开作品列表；(3) 笔记（视频）详情，获取详情数据及互动数据等，分析笔记的市场表现；(4) 笔记评论分析，按笔记链接获取评论内容与互动数据。用户提到小红书/xhs/rednote 且需要查数据、市场调研、舆情监测、做选题、竞品监控、KOL筛选、舆情分析时调用；无需登录账号
 license: MIT
 version: 1.1.4
+display_name: 🎯小红书账号拆解
+display_name_en: XiaoHongShu Account Teardown
+description_zh: 获取小红书真实一手数据，逆向拆解小红书平台账号，根据账号互动数据及账号作品数据，产出可复刻的运营手册。当用户提出「拆解某账号」「分析对标号」「看看XX号为什么火」「复刻这个账号的风格」「抓取小红书账号数据」「竞品账号分析」「对标账号数据」「账号诊断」等需求时使用。产出结构化数据 + 互动指标 + 形态拆解 + 差距定位。
+description_en: Obtain first-hand authentic XiaoHongShu data and conduct reverse analysis of XiaoHongShu accounts. Generate replicable operation manuals based on account engagement metrics and content performance data. It is triggered when users request deconstruct a specific account, analyze benchmark accounts, find out why Account XX went viral, replicate this account’s style, crawl XiaoHongShu account data, competitor account analysis, benchmark account data, account diagnosis and similar requests. Output includes structured data, engagement indicators, content pattern breakdown, and gap identification.
 category: 数据分析
 platforms: [WorkBuddy, Openclaw, QClaw, ima, Claude Code, Cursor]
 homepage: https://github.com/um-why/xiaohongshu-openclaw-skill
